@@ -1,0 +1,21 @@
+{
+    "version": "v1.34.4_Niven",
+    "description": "The Most Popular KerbalSpaceProgram Game Mod Manager",
+    "homepage": "https://github.com/KSP-CKAN/CKAN",
+    "license": {
+        "identifier": "Software",
+        "url": "https://github.com/KSP-CKAN/CKAN/blob/master/LICENSE.md"
+    },
+    "url": "https://github.com/KSP-CKAN/CKAN/releases/download/v1.34.4/ckan.exe",
+    "bin": "ckan.exe",
+    "shortcuts": [
+        [
+            "ckan.exe",
+            "ckan"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/KSP-CKAN/CKAN/releases/download/v$version/ckan.exe"
+    }
+}
